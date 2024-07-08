@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <input type="text" id="search-bar" placeholder="Rechercher un Pokémon...">
+        <div id="filter-section">
+            <label for="type-filter">Filtrer par type :</label>
+            <select id="type-filter">
+                <option value="">Tous les types</option>
+                <option value="normal">Normal</option>
+                <option value="combat">Combat</option>
+                <option value="vol">Vol</option>
+                <option value="poison">Poison</option>
+                <option value="sol">Sol</option>
+                <option value="roche">Roche</option>
+                <option value="insecte">Insecte</option>
+                <option value="spectre">Spectre</option>
+                <option value="acier">Acier</option>
+                <option value="feu">Feu</option>
+                <option value="eau">Eau</option>
+                <option value="plante">Plante</option>
+                <option value="électrique">Électrique</option>
+                <option value="psy">Psy</option>
+                <option value="glace">Glace</option>
+                <option value="dragon">Dragon</option>
+                <option value="ténèbres">Ténèbres</option>
+                <option value="fée">Fée</option>
+            </select>
+        </div>
+    </header>
+    <main id="pokemon-list">
+        <!-- Les cartes des Pokémon seront affichées ici -->
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
